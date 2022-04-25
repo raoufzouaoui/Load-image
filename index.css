@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+.background{
+    background: url('https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+    no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;  /*  dimaa ylzm m3aha position:asbsolute; 5TR hdhy l'indice mt3ha -1 M3naha hya ta7t el nass el koll donc ay ktiba bch tban fogha*/
+    filter: blur(30px); /* hdhy floo m3naha t3mlha 7aseb el px   */
+}
+
+.loading-text{
+    font-size: 30px;
+    color: #fff;
+}
